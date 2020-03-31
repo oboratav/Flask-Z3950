@@ -2,7 +2,7 @@
 """Example of using Flask-Z3950 to set up the default Z39.50 gateway."""
 
 from flask import Flask
-from flask.ext.z3950 import Z3950Manager
+from flask_z3950 import Z3950Manager
 import settings_test as settings
 
 # Setup Flask

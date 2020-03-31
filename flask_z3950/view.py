@@ -4,7 +4,7 @@
 import json
 from flask import Flask, request, abort, Response, render_template
 from flask import current_app
-from flask.ext.z3950 import ZoomError
+from flask_z3950 import ZoomError
 
 
 def error_status(e):
