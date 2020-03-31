@@ -61,7 +61,7 @@ with your configured databases, like so:
     z3950_db = z3950_manager.databases['loc']
     dataset = z3950_db.search('ti=1066 and all that')
 
-    print dataset.to_str()
+    print(dataset.to_str())
 
 
 Configuration
@@ -144,7 +144,7 @@ the ISBN number 188012422X.
 
     # Assumes z3950_db is a configured Z3950Database object
     query = '(1,7)="188012422X"'
-    print z3950_db.search(query)
+    print(z3950_db.search(query))
 
 .. note::
 
